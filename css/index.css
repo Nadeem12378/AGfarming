@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Mar, 2025, 3:07:51 PM
+    Author     : 5THLABSYSTEM19
+*/
+
+body{
+   background-image: url("./../images/background.jpg");
+   margin: 0px;
+   padding: 0px;
+}
+
+ .heading_1{
+  color:greenyellow ;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+ }
+ .heading_2{
+   color:white;
+   margin-top: 150px;
+   margin-left: 600px;
+   padding-left: 15px;
+   font-size: 30px;
+   display: flex;
+   align-items:center;
+   font-style: italic;
+   background-color:rgb(7, 47, 7);
+   box-shadow: 0px 0px 10px 3px black;
+   text-align: center;
+   border-radius: 60px;
+   width: 300px;
+   height: 60px;
+ }
+ .anchor_1{
+   background-color:rgb(7, 47, 7) ;
+   color: white;
+   font-size: 25px;
+   padding: 40px 60px;
+   text-decoration: none;
+   box-shadow: 0px 0px 15px 5px black;
+   border-radius: 20px;
+   margin-bottom: 200px;
+ }
+ .anchor_1:hover{
+  background-color: rgb(45, 89, 56);
+  border: 2px solid black;
+ box-shadow: 0 0 15px 2px black;
+ }
+ .products{
+   text-align: center;
+   margin-top: 150px;
+ }
+ 
+ 
+

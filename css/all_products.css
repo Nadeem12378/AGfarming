@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 Mar, 2025, 4:05:39 PM
+    Author     : 5THLABSYSTEM19
+*/
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Protest+Riot&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./../img/plant.jpg");
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.main{
+    font-size: 30px;
+    padding: 30px;
+}
+.head{
+    font-family: 'Protest Riot', sans-serif;
+    padding-bottom: 10px;
+}
+.info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    
+}
+.card_d{
+    border-radius: 10px;
+    width: 280px;
+    height: 470px;
+    overflow: hidden;
+    padding: 5px 7px;
+    margin-top: 60px;
+    box-shadow: 0px 0px 15px 3px black;
+    text-align: center;
+    background-color: white;
+    
+}
+.card_d img{
+    border-radius: 10px;
+    width: 250px;
+    height: 170px;
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+    font: 20px; 
+    font-size: 25px;
+     margin-top: 10px;
+}
+.info{
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 10px;
+    text-align: justify;
+    padding: 0px 5px;
+}
+.price{
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(45, 89, 56);
+    color: white;
+    border:2px solid black;
+    box-shadow: 0px 0px 5px 2px black;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.footer_all_products{
+    height: 300px;
+    background-color:rgb(7, 47, 7);
+    display: flex;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+}
+.logo_image{
+  width:40px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  top: 35px;
+  left: 90px;
+}
+.footer_c{
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  margin-left: 20px;
+}
+.footer_heading_c{
+    text-align: center;
+  color: rgb(163, 163, 49);
+  font-style: italic;
+  font-size: 40px;
+  padding-top: 20px;
+}
+.footer_info_c{
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.footer_info_d{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+.footer_phone_1{
+    width:30px;
+    height: 30px;
+  position: relative;
+  top: 191px;
+  left: 50px;
+}
+.footer_mail_2{
+    width:30px;
+    height: 30px;
+    position: relative;
+  top: 235px;
+  left: 20px;
+}
+.footer_E{
+    margin-left: 20px;
+  margin-top: 20px;
+}
+.footer_heading_E{
+  margin-top: 20px;
+  color: rgb(163, 163, 49);
+  font-size: 40px;
+  font-style: italic;
+}
+.footer_info_E{
+    margin-left: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+.footer_icons_1{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.footer_icons_1:hover{
+    box-shadow: 0px 0px 10px 3px white;
+}
+
+

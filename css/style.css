@@ -1,0 +1,153 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Mar, 2025, 3:06:42 PM
+    Author     : 5THLABSYSTEM19
+*/
+body{
+    margin: 0;
+    padding: 0;
+}
+/*
+green : rgb(7, 47, 7)
+gray : rgb(154, 147, 147)
+*/ 
+
+.navbar{
+    margin: 0px !important;
+    padding: 0px ;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color:lightgreen ;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .brand-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .brand-img{
+   height: 40px;
+ }
+ .brand-text{
+   color:white;
+   font-size: 30px;
+   }
+ 
+ .anchor{
+    font-size: 25px;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    
+ }
+  .anchor:hover{
+    background-color: rgb(45, 89, 56);
+    border: 2px solid black;
+   box-shadow: 0 0 10px 2px black;
+  }
+  .a1{
+  margin-left: 550px;
+  }
+  .hamburger{
+   height: 40px;
+   right: 10px;
+   position: absolute;
+  }
+  @media screen and (max-width:700px){
+    .hamburger{
+      visibility: visible;
+    }
+    .anchor{
+      display: none;
+    }
+  }
+
+  @media screen and (min-width:701px){
+.hamburger{
+  visibility: visible;
+}
+ }
+ .footer{
+  display: flex;
+  position: relative;
+ top:180px;
+background-color: rgb(7, 47, 7);
+ }
+ .logo_img{
+  width:40px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  top: 30px;
+  left: 120px;
+ 
+}
+ .footer_A{
+  width: 280px;
+  height: 250px;
+  padding: 20px;
+  margin-left: 20px;
+ }
+ .footer_heading{
+  text-align: center;
+  color: rgb(163, 163, 49);
+  font-style: italic;
+ }
+ .footer_info{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+ }
+ .footer_info_1{
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+ }
+ .footer_link{
+  text-decoration: none;
+  color: white;
+ }
+ .footer_phone{
+  width:30px;
+  height: 30px;
+position: relative;
+top: 185px;
+left: 50px;
+ }
+ .footer_mail{
+  width:30px;
+  height: 30px;
+  position: relative;
+top: 235px;
+left: 20px;
+ }
+ .footer_icons{
+  margin-left: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+ }
+ .footer_icons:hover{
+box-shadow: 0px 0px 10px 3px white;
+ }
+ .footer_B{
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+ .footer_heading_1{
+  margin-left: 0px;
+  color: rgb(163, 163, 49);
+  font-style: italic;
+ }
+ .footer_info_2{
+  margin-left: 10px;
+  font-size: 20px;
+  color: white;
+ }
